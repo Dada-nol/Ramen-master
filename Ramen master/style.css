@@ -1,0 +1,38 @@
+   /* Styles CSS */
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration-line: none;
+}
+h1 {
+    font-size: 2rem;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
