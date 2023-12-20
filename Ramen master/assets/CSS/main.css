@@ -1,0 +1,35 @@
+section {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+main {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    max-width: 1200px; /* Largeur maximale du body */
+    margin: 0 auto; /* Pour centrer le contenu */
+}
+
+
+header {
+    background-color: #11075f;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+footer {
+    background-color: #11075f;
+    color: #fff;
+    padding: 30px;
+}
+
+h2, p, form, h3, .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
