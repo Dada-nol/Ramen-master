@@ -1,0 +1,31 @@
+.menu-item {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "left-column center-column right-column";
+}
+
+.menu-item img {
+    grid-area: left-column;
+    block-size: 100%;
+    background-color: #333 ;
+    color: white;
+    width: 150px;
+    height: 150px;
+    margin: 0;
+}
+
+.menu-item h3 {
+    grid-area: center-column;
+    block-size: 100%;
+    background-color: #333;
+    color: white;
+    margin: 0;
+}
+
+.menu-item p {
+    grid-area: right-column;
+    block-size: 100%;
+    background-color: #333 ;
+    color: white;
+    margin: 0;
+}

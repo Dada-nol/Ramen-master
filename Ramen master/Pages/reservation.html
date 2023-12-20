@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Japonais - Marseille 9e</title>
+    <link rel="shortcut icon" href="../assets/Images/images-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/CSS/main.css">
+    <link rel="stylesheet" href="../assets/CSS/style.css">
+    <link rel="stylesheet" href="../assets/CSS/reservation.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../assets/Images/images-removebg-preview.png" alt="">
+            </div>  
+            <div>
+                <h1>Ramen master</h1>
+                <p>Restaurant Japonais à Marseille 9e</p>
+            
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="reservation.html">Réservations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="reservations">
+            <h2>Faire une Réservation</h2>
+            <p>Réservez une table pour une expérience culinaire mémorable.</p>
+            <p>Découvrez l'authenticité de la cuisine japonaise dans un cadre enchanteur au cœur de la ville. Chez Sakura Savor, nous vous invitons à un voyage culinaire qui célèbre les saveurs traditionnelles du Japon tout en offrant une expérience contemporaine.</p>
+            <form id="reservation-form">
+                <div id="name">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" required>
+                </div>
+                <div id="date">
+                    <label for="date">Date :</label>
+                    <input type="date" id="date" required>
+                </div>
+                <div id="hour">
+                    <label for="heure">Heure :</label>
+                    <input type="time" id="heure" required>
+                </div>
+                <div id="btn">
+                    <button type="submit">Réserver</button>
+                </div>
+            </form>
+        </section>
+        
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Restaurant Japonais - Marseille 9e</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

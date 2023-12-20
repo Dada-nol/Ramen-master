@@ -1,0 +1,76 @@
+/* Couleur de fond pour le formulaire de réservation */
+/*#reservations {
+    background-color: #f9f9f9;
+}*/
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+li {
+    list-style: none;
+}
+
+li:hover {
+    text-decoration:underline white;
+}
+
+a {
+    color: white;
+    text-decoration-line: none;
+}
+h1 {
+    font-size: 3rem;
+    font-style: italic;
+}
+
+h3 {
+    font-style: italic;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.btn {
+    color : #fff;
+    background-color: #11075f;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+.logo img{
+    width: 200px;
+    height: 200px;
+}
+
+/*#scroll_to_top {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    bottom: 50px;
+    right: 30px;
+    display: flex;
+    align-self:flex-end;
+  }
+  #scroll_to_top img {
+    width: 25px;
+  }*/
