@@ -1,17 +1,47 @@
+
+
+.menu-title {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "photo title description";
+    border-top: #333 solid 3px;
+    font-size: 1.50rem;
+}
+
+.photo {
+    grid-area: photo;
+    font-size: larger;
+
+}
+
+.plat {
+    grid-area: title;
+    font-size: larger;
+
+}
+
+.description {
+    grid-area: description;
+    font-size: larger;
+
+}
+
 .menu-item {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "left-column center-column right-column";
+    margin-bottom: 20px;
+    border-top: #333 solid 3px;
+    border-bottom: #333 solid 3px;
 }
 
 .menu-item img {
     grid-area: left-column;
     block-size: 100%;
-    background-color: #333 ;
     color: white;
     width: 150px;
     height: 150px;
-    margin: 0;
+    margin-left: 125px;
 }
 
 .menu-item h3 {
@@ -19,13 +49,14 @@
     block-size: 100%;
     background-color: #333;
     color: white;
+    font-size: larger;
     margin: 0;
 }
 
 .menu-item p {
     grid-area: right-column;
     block-size: 100%;
-    background-color: #333 ;
+    background-color: #11075f ;
     color: white;
     margin: 0;
 }
