@@ -57,3 +57,12 @@ nav {
     height: 200px;
 }
 
+#contact img {
+    width: 800px;
+    height: 600px;
+}
+
+#contact div{
+    display: flex;
+    justify-content: center;
+}
