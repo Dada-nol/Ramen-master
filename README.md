@@ -1,4 +1,4 @@
-Ce projet es tun site pour un restaurant japonais fictif et uniquement réaliser qu'en front-end.
+Ce projet est un site pour un restaurant japonais fictif et uniquement réaliser qu'en front-end.
 
 Contenu du Site : 
 
